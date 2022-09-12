@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body,
+html {
+  background-color: #f3f5f7;
+  height: 1476px;
+  width: 100%;
+}
+
+header {
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  width: 100%;
+  height: 250px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 270px;
+  padding: 41px 0 73px 0;
+}
+
+.menu ul li a {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.pesquisa {
+  display: flex;
+  margin: 0 270px;
+
+  height: 65px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  align-items: center;
+}
+
+.pesquisa img {
+  margin-left: 20px;
+}
+.pesquisa p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  opacity: 0.5;
+  margin-left: 20px;
+}
+
+.main-container1 {
+  height: 195px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 5px;
+  margin: 50px 270px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px;
+}
+
+.content h6 {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+}
+
+.content img {
+  width: 25px;
+  height: 25px;
+  left: 1120px;
+  top: 370px;
+}
+
+.content-titulo h2 {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  color: #1a202c;
+  padding: 0 25px 8px;
+}
+
+.content-titulo p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #717171;
+  padding: 0 25px 25px;
+}
+
+.main-container2 {
+  height: 259px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 5px;
+  margin: 50px 270px;
+}
+
+.main-container3 {
+  height: 163px;
+  margin: 50px 270px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 5px;
+}
+
+.main-container4 {
+  height: 259px;
+  margin: 50px 270px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    height: 200px;
+    width: 100vw;
+  }
+  .menu ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 48px 20px 40px 20px;
+  }
+  .menu ul li a {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+  }
+
+  .pesquisa {
+    width: 374px;
+    height: 40px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+
+  .pesquisa p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+
+  .main-container1 {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 374px;
+    height: 235px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+  }
+
+  .content h6 {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #717171;
+  }
+
+  .content-titulo h2 {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1a202c;
+  }
+  .content-titulo p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #717171;
+  }
+
+  .main-container2 {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 374px;
+    height: 340px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+  }
+
+  .main-container3 {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 374px;
+    height: 210px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+  }
+  .main-container4 {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 374px;
+    height: 347px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+  }
+}
